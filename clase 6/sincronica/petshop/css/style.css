@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/****************************************************HEADER*****************************************/
+
+header{
+    color: white;    
+}
+
+.header_sup{
+    background-color: #222222;    
+}
+
+.header_inf{
+    background-color: #F0A83E;
+}
+
+li{
+    list-style-type: none;
+}
+
+/***************************************************MAIN********************************************/
+
+h1{
+    text-align: center;
+    color: #3C2313;
+}
+
+.imagen-principal{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+main h3{
+    color: #3C2313;
+}
+
+.boton-comederos{
+    background-color: #F0A83E;
+    color: white;
+}
+
+main h2{
+    color: #3C2313;
+}
+
+.botones-destacados{
+    color: #3C2313;
+}
+
+.titulo-productos{
+    color: #3C2313;
+}
+
+.precios{
+    color: #F0A83E;
+}
+
+/************************************************FOOTER*********************************/
+
+.footer-sup{
+    background-color: #3C2313;
+    color: white;
+}

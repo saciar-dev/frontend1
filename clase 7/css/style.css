@@ -1,0 +1,64 @@
+/**************HEADER********************/
+.fondo-logo-batman{    
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.logo-batman{
+    background-color: #E6E6E6;
+    padding-top: 20.91px;   
+    top: 20.91px;
+}
+
+h1{
+    
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.64px;
+    padding-top: 14.13px;
+    padding-bottom: 16px;
+    text-align: center;
+    white-space: pre;
+}
+
+/************MAIN************************/
+.espacio-blanco{
+    height: 128px;
+}
+h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16.94px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    white-space: pre;
+}
+ul li 
+
+span{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 12.7px;
+    white-space: pre;
+}
+/*********************FOOTER******************************/
+.footer{
+    background-color: #005677;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+.span-footer{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+

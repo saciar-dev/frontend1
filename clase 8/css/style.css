@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Pontano+Sans&display=swap');
+
+/*****************HEADER***********************/
+header {
+    background-color: #1C98C9;
+    text-align: center;
+}
+
+header p{
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: large;
+    text-align: right;
+}
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+/*****************MAIN*************************/
+
+main h2{
+    background-color: #D9D9D9;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+main ul li {
+    font-family: 'Pontano Sans', sans-serif;
+    list-style-type: none;
+    font-size: large;
+    
+}
+
+/****************FOOTER*************************/
+footer{
+    background-color: #1C98C9;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}

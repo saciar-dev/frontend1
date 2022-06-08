@@ -1,0 +1,338 @@
+{
+    "1": {
+        "2022-03-01": {
+            "9": [
+                {
+                    "id": 25,
+                    "hora_ini": "09:00:00",
+                    "hora_fin": "09:05:00",
+                    "bloque": {
+                        "id": 9,
+                        "nombre": "Apertura",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Apertura",
+                    "disertante": "Apertura",
+                    "rol": "DISERTANTE",
+                    "email": "constantini@gmail.com",
+                    "imagen": "constantini-6298d63c95bb0.webp",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": null,
+                    "instagram": null,
+                    "twitter": null,
+                    "linkedIn": "https:\/\/ar.linkedin.com\/in\/patricia-elena-costantini-a335b224",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": {
+                        "id": 22,
+                        "nombreArchivo": "25.pptx",
+                        "actualizado": "2022-05-27T17:27:01+00:00",
+                        "esVirtual": false,
+                        "extension": ".pptx"
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "id": 32,
+                    "hora_ini": "11:30:00",
+                    "hora_fin": "12:10:00",
+                    "bloque": {
+                        "id": 13,
+                        "nombre": "SESI\u00d3N 3\r\nCar T- Cells e infecciones: nuevas drogas, nuevos problemas",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Car T- Cells e infecciones: nuevas drogas, nuevos problemas",
+                    "disertante": "Car T- Cells e infecciones: nuevas drogas, nuevos problemas",
+                    "rol": "DISERTANTE",
+                    "email": "vidal@gmail.com",
+                    "imagen": "vidal.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 31,
+                    "hora_ini": "11:30:00",
+                    "hora_fin": "12:10:00",
+                    "bloque": {
+                        "id": 13,
+                        "nombre": "SESI\u00d3N 3\r\nCar T- Cells e infecciones: nuevas drogas, nuevos problemas",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Coordinaci\u00f3n",
+                    "disertante": "Coordinaci\u00f3n",
+                    "rol": "COORDINADOR",
+                    "email": "laborde@gmail.com",
+                    "imagen": "laborde.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                }
+            ],
+            "10": [
+                {
+                    "id": 26,
+                    "hora_ini": "09:05:00",
+                    "hora_fin": "10:45:00",
+                    "bloque": {
+                        "id": 10,
+                        "nombre": "SESI\u00d3N 1\r\nCuando creemos que paso lo peor: c\u00f3mo monitorear, reconocer y tratar las infecciones virales post TCPH haploid\u00e9ntico\r\nCoordinadores: Dr. Anibal Calmaggi - Dr. Hugo Peretti",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Adenovirus",
+                    "disertante": "Adenovirus",
+                    "rol": "DISERTANTE",
+                    "email": "papucci@gmail.com",
+                    "imagen": "papucci.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "https:\/\/twitter.com\/lopezpapucci?lang=es",
+                    "twitter": "",
+                    "linkedIn": "https:\/\/ar.linkedin.com\/in\/santiago-m-l%C3%B3pez-papucci-4399b835",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 28,
+                    "hora_ini": "09:05:00",
+                    "hora_fin": "10:45:00",
+                    "bloque": {
+                        "id": 10,
+                        "nombre": "SESI\u00d3N 1\r\nCuando creemos que paso lo peor: c\u00f3mo monitorear, reconocer y tratar las infecciones virales post TCPH haploid\u00e9ntico\r\nCoordinadores: Dr. Anibal Calmaggi - Dr. Hugo Peretti",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Puesta al d\u00eda de HHV6 y EBV",
+                    "disertante": "Puesta al d\u00eda de HHV6 y EBV",
+                    "rol": "DISERTANTE",
+                    "email": "laborde@gmail.com",
+                    "imagen": "laborde.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                }
+            ],
+            "11": [
+                {
+                    "id": 27,
+                    "hora_ini": "09:05:00",
+                    "hora_fin": "10:45:00",
+                    "bloque": {
+                        "id": 11,
+                        "nombre": "SESI\u00d3N 1\r\nCuando creemos que paso lo peor: c\u00f3mo monitorear, reconocer y tratar las infecciones virales post TCPH haploid\u00e9ntico\r\nCoordinadores: Dr. Anibal Calmaggi - Dr. Hugo Peretti",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Infecci\u00f3n por CMV en TCPH alog\u00e9nico: prevenci\u00f3n y tratamiento",
+                    "disertante": "Infecci\u00f3n por CMV en TCPH alog\u00e9nico: prevenci\u00f3n y tratamiento",
+                    "rol": "DISERTANTE",
+                    "email": "avery@gmail.com",
+                    "imagen": "avery.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                }
+            ],
+            "12": [
+                {
+                    "id": 29,
+                    "hora_ini": "10:50:00",
+                    "hora_fin": "11:30:00",
+                    "bloque": {
+                        "id": 12,
+                        "nombre": "SESI\u00d3N 2\r\nVirus BK en TCPH: algo m\u00e1s que enemigos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Coordinaci\u00f3n",
+                    "disertante": "Coordinaci\u00f3n",
+                    "rol": "COORDINADOR",
+                    "email": "coozi@gmail.com",
+                    "imagen": "coozi.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 30,
+                    "hora_ini": "10:50:00",
+                    "hora_fin": "11:30:00",
+                    "bloque": {
+                        "id": 12,
+                        "nombre": "SESI\u00d3N 2\r\nVirus BK en TCPH: algo m\u00e1s que enemigos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Virus BK en TCPH: algo m\u00e1s que enemigos ",
+                    "disertante": "Virus BK en TCPH: algo m\u00e1s que enemigos ",
+                    "rol": "DISERTANTE",
+                    "email": "hirsch@gmail.com",
+                    "imagen": "hirsch.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                }
+            ]
+        },
+        "2022-03-02": {
+            "16": [
+                {
+                    "id": 38,
+                    "hora_ini": "09:00:00",
+                    "hora_fin": "10:00:00",
+                    "bloque": {
+                        "id": 16,
+                        "nombre": "SESI\u00d3N 10\r\nCOVID-19 en inmunocomprometidos: charlando sobre t\u00f3picos controvertidos y aspectos no resueltos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Coordinaci\u00f3n",
+                    "disertante": "Coordinaci\u00f3n",
+                    "rol": "COORDINADOR",
+                    "email": "bonvehi@gmail.com",
+                    "imagen": "bonvehi.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 39,
+                    "hora_ini": "09:00:00",
+                    "hora_fin": "10:00:00",
+                    "bloque": {
+                        "id": 16,
+                        "nombre": "SESI\u00d3N 10\r\nCOVID-19 en inmunocomprometidos: charlando sobre t\u00f3picos controvertidos y aspectos no resueltos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Coordinaci\u00f3n",
+                    "disertante": "Coordinaci\u00f3n",
+                    "rol": "COORDINADOR",
+                    "email": "acuna@gmail.com",
+                    "imagen": "acuna.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 40,
+                    "hora_ini": "09:00:00",
+                    "hora_fin": "10:00:00",
+                    "bloque": {
+                        "id": 16,
+                        "nombre": "SESI\u00d3N 10\r\nCOVID-19 en inmunocomprometidos: charlando sobre t\u00f3picos controvertidos y aspectos no resueltos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Aislamiento y excreci\u00f3n prolongada en inmunocomprometido \u00bfQu\u00e9 significa? Cu\u00e1ndo reiniciar el tratamiento oncol\u00f3gico o inmunomodulador? Qu\u00e9 sabemos de coinfecciones y sobreinfecciones?",
+                    "disertante": "Aislamiento y excreci\u00f3n prolongada en inmunocomprometido \u00bfQu\u00e9 significa? Cu\u00e1ndo reiniciar el tratamiento oncol\u00f3gico o inmunomodulador? Qu\u00e9 sabemos de coinfecciones y sobreinfecciones?",
+                    "rol": "DISERTANTE",
+                    "email": "camps@gmail.com",
+                    "imagen": "camps.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                },
+                {
+                    "id": 41,
+                    "hora_ini": "09:00:00",
+                    "hora_fin": "10:00:00",
+                    "bloque": {
+                        "id": 16,
+                        "nombre": "SESI\u00d3N 10\r\nCOVID-19 en inmunocomprometidos: charlando sobre t\u00f3picos controvertidos y aspectos no resueltos",
+                        "__initializer__": null,
+                        "__cloner__": null,
+                        "__isInitialized__": true
+                    },
+                    "titulo": "Vacunas COVID-19 en Inmunocomprometidos: evidencias y controversias.",
+                    "disertante": "Vacunas COVID-19 en Inmunocomprometidos: evidencias y controversias.",
+                    "rol": "DISERTANTE",
+                    "email": "salgueira@gmail.com",
+                    "imagen": "salgueira.jpg",
+                    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Adipiscing elit ut aliquam purus sit amet luctus. Aliquam nulla facilisi cras fermentum odio eu feugiat. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis. Etiam dignissim diam quis enim. At ultrices mi tempus imperdiet. Augue eget arcu dictum varius. Urna nec tincid",
+                    "facebook": "",
+                    "instagram": "",
+                    "twitter": "",
+                    "linkedIn": "",
+                    "youtube": "",
+                    "nombreSponsor": "",
+                    "imagenSponsor": "",
+                    "presentacion": []
+                }
+            ]
+        }
+    }
+}
