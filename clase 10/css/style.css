@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 
-/*******************************************HEADER*********************************************/
-
-header{
+body{
     font-family: 'Roboto', sans-serif;  
-    
 }
+
+/*******************************************HEADER*********************************************/
 
 header .superior{
     font-size: 15px;
@@ -23,10 +22,6 @@ header .superior{
 
 
 /*******************************************MAIN*********************************************/
-
-main{
-    font-family: 'Roboto', sans-serif;
-}
 
 main .titulo{
     font-size: 40px;

@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position-x: 107%;
+    background-position-y: -5%;
+    font-size: 16px;    
+}
+
+.boton-get{
+    text-decoration: none;
+    background-color: #F25F3A;
+    color: white;
+    border-radius: 50px;
+    padding: 12.5px 30.5px;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    display: inline-block;    
+    transition: all 0.5s;
+    cursor: url(../img/mickey.png), pointer;
+}
+
+.boton-get:hover{
+    background-color:#232C51;
+}
+
+svg > g > g{
+    animation: rotate-vert-center 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;    
+}
+
+@keyframes rotate-vert-center{
+    0% {
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+      }
+      100% {
+        -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+      }
+}
+
+/*******************HEADER***********************/
+
+header svg > g{
+    fill:#242D52;    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 165px;  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;   
+}
+
+header li{    
+    font-weight: 500;
+    font-size: 0.8rem;
+    list-style: none;
+    margin: 0px 14px;
+}
+
+header li a{
+    text-decoration: none;
+    color: #232C51;  
+    transition: color 0.5s;
+}
+
+header li a:hover{
+    color: #8690b6;
+}
+
+header .boton-hamb{
+    display: none;
+}
+
+/*******************MAIN*************************/
+
+/*HOME*/
+
+main{
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position-x: -70%;
+    background-position-y: 70%;
+}
+
+main .home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+main .home div{ /*40% es lo que corresponde aprox a los 439px en una pantalla de 1129px */
+    width: 40%; 
+}
+
+main .home div h2{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #232C51;
+}
+
+main .home div p{
+    font-weight: 500;
+    margin-top: 28px; 
+    margin-bottom: 28px; /* al margen inferior le sumo los 12.5 del pading del boton */
+    margin-right: 90px;
+}
+
+/*SOBRE NOSOTROS*/
+
+main .sobre-nosotros{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+main .sobre-nosotros .manage{ /*40% es lo que corresponde aprox a los 433px en una pantalla de 1111px */
+    width: 40%;
+}
+
+main .sobre-nosotros .manage h3{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 36px;
+    color: #232C51;
+}
+
+main .sobre-nosotros .manage p{
+    font-weight: 500;
+    margin-right: 90px;
+}
+
+main .sobre-nosotros .points{ /*50% es lo que corresponde aprox a los 553px en una pantalla de 1111px */
+    width: 50%;
+}
+
+main .sobre-nosotros .points .point{
+    display: flex;
+    flex-direction: column;
+}
+main .sobre-nosotros .points .point div{
+    display: flex;
+}
+
+main .sobre-nosotros .points article{
+    display: flex;
+}
+
+main .sobre-nosotros .points span{
+    padding: 10px 25px;
+    margin-right: 23px;
+    background-color: #F25F3A;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+main .sobre-nosotros .points h5{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #232C51;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+main .sobre-nosotros .points p{
+    color: #B3B2B7;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-left: 90px;
+}
+
+/*TESTIMONIOS*/
+
+main .testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 180px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+main .testimonios h3{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 109px;
+    color: #232C51;
+    text-align: center;
+}
+
+main .testimonios div{
+    display: flex;  
+    justify-content: center;  
+}
+
+main .testimonios div article{
+    background-color: #FAFAFA;
+    width: 445px;
+    position: relative;
+}
+
+main .testimonios div article img{
+    width: 70px;
+    position: absolute;
+    left: calc(50% - 35px);
+    top: -35px;
+}
+
+main .testimonios div article h5{
+    text-align: center;
+    margin-top: 56px;
+    font-weight: 700;
+    color: #232C51;
+}
+
+main .testimonios div article p{
+    text-align: center;
+    margin: 21px 27px;
+    color: #B3B2B7;
+    font-weight: 500;
+}
+
+main .testimonios a{
+    align-self: center;
+    margin-top:45px;
+}
+
+main .testimonios i{
+    display: none;
+}
+
+/*TRABAJO-SIMPLE*/
+
+main .trabajo-simple{
+    background-color: #F25F3A;
+    background-image: url("../img/bg-simplify-section-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+
+main .trabajo-simple div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+main .trabajo-simple div span{
+    color: white;
+    font-weight: 700;
+    font-size: 2.2rem;
+    width: 40%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+main .trabajo-simple div a{
+    text-decoration: none;
+    background-color:white;
+    color: #F25F3A;
+    border-radius: 50px;
+    padding: 12.5px 30.5px;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+main .trabajo-simple div a:hover{
+    color: white;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/***********************FOOTER*******************/
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p{
+    display: none;
+    color: #8C8C94;
+    font-size: 0.8rem;
+}
+
+/*LOGO-REDES*/
+footer .logo-redes{
+    margin-left: 165px;
+    margin-top: 67px;
+    margin-bottom: 73px;
+}
+
+footer .logo-redes svg{
+    margin-bottom: 80px;
+}
+
+footer .logo-redes svg > g{
+    fill: white;
+}
+
+footer .logo-redes .redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo-redes .redes i{
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+footer .logo-redes .redes i:hover{
+    color:#F25F3A
+}
+
+/*NAV*/
+
+footer .navegadores{
+    display: flex;
+}
+
+footer .navegadores ul{
+    display: flex;
+    flex-direction: column;
+    margin: 53px 110px;
+}
+
+footer .navegadores ul li{
+    font-weight: 400;   
+    font-size: 0.8rem; 
+    list-style: none;
+    margin: 12px 0px;
+}
+
+footer .navegadores ul li a{
+    text-decoration: none;
+    color: white; 
+    transition: color 0.5s;
+}
+
+footer .navegadores ul li a:hover{
+    color:#F25F3A
+}
+
+/*FORMULARIO*/
+
+footer .formulario{
+    margin-right: 165px; ;
+    margin-top: 67px;
+    
+}
+
+footer .formulario form{
+    display: flex;
+    margin-bottom: 74px;
+}
+
+footer .formulario input{
+    font-weight: 500;
+    border-radius: 50px;
+    width: 200px;
+    margin-right: 9px;
+    padding-left: 20px;
+}
+
+footer .formulario button{
+    border: none;
+}
+
+footer .formulario p{
+    color: #8C8C94;
+    text-align: right;
+}
+
+/************************************************/
+/****************MEDIA QUERIES*******************/
+/************************************************/
+
+@media (max-width:375px){
+
+    body{
+        font-size: 15px;
+        background-size: 98%;
+        background-position-x: 645%;
+        background-position-y: -1%;
+    } 
+
+    .boton-get{
+        font-size: 0.8rem;
+    }
+
+    p{
+        line-height: 1.5rem;
+    }
+
+    /********************Header**********************/
+
+    header{
+        margin: 40px 25px;
+    }
+
+    header .boton-get{
+        display: none;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header .boton-hamb{
+        display: inline-block;
+        width: 20%;
+        text-align: right;
+    }
+
+    header img{
+        width: 30%;
+    }
+
+    /********************Main**********************/
+
+    main{
+        background-position-x: 145%;
+        background-position-y: 20%;
+    }
+    
+
+    /*HOME*/
+
+    main .home{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        margin-bottom: 90px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    main .home img{
+        width: 105%;
+    }
+
+    main .home div{
+        width: 100%;
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    main .home div h2{
+        font-size: 2.3em;
+    }
+
+    main .home div p{
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #B3B2B7;
+    }
+
+/*SOBRE-NOSOTROS*/
+
+    main .sobre-nosotros{
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    main .sobre-nosotros .manage{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 55px;
+        
+    }
+
+    main .sobre-nosotros .manage h3{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        line-height: 3rem;
+        margin-right: 25px;
+    }
+
+    main .sobre-nosotros .manage p{        
+        margin-left: 14px;
+        margin-right: 14px;
+        font-size: 0.85rem;
+        color: #B3B2B7;
+        margin-right: 25px;
+    }
+
+    main .sobre-nosotros .points{
+        width: 100%;        
+    }
+
+    main .sobre-nosotros .points span{
+        margin-right: 12px;        
+    }
+
+    main .sobre-nosotros .points .point div{
+        background-color: #FFEFEA;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        
+    }
+
+    main .sobre-nosotros .points h5 {
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+
+    main .sobre-nosotros .points p{
+        margin-left: 0px;
+        margin-bottom: 50px;
+        margin-right: 25px;
+        margin-top: 10px;
+        font-size: 00.8rem;
+    }
+
+    /*TESTIMONIOS*/
+
+    main .testimonios{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 40px;
+    }
+
+    main .testimonios h3{
+        margin-bottom: 90px;
+    }
+
+    main .testimonios .ali p{
+        margin-top: 35px;
+        margin-bottom: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+
+    main .testimonios .anisha{
+        display: none;
+    }
+
+    main .testimonios .richard{
+        display: none;
+    }
+
+    main .testimonios i{
+        display: block;        
+        font-size: 0.5rem;
+        margin-top: 30px;
+        margin-right: 2.5px;
+        margin-left: 2.5px;
+        color: #F25F3A;
+    }
+
+    /*TRABAJO-SIMPLE*/
+
+    main .trabajo-simple div{
+        flex-direction: column;
+        margin: 0px 40px;
+        
+    }
+
+    main .trabajo-simple div span{
+        width: 100%;
+        text-align: center;
+        margin-top: 115px;
+        margin-bottom: 30px;
+    }
+
+    main .trabajo-simple div a{
+        margin-bottom: 80px;
+    }
+
+    /******************FOOTER*******************/
+
+    footer {
+        flex-direction: column-reverse;        
+    }
+
+    footer > p{
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /*FORMULARIO*/
+
+    footer .formulario{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer .formulario p{
+        display: none;
+    }
+
+    footer .formulario form{
+        margin-bottom: 0px;
+    }
+
+    footer .formulario form input{
+        width: 100%;
+    }
+
+    /*NAVEGADORES*/
+
+    footer .navegadores{
+        justify-content: center;
+    }
+
+    footer .navegadores ul{
+        margin-top: 40px ;
+        margin-bottom: 30px ;
+        margin-left: 50px;
+        margin-right: 50px;
+        line-height: 0.8rem;
+    }
+
+    /*LOGO-REDES*/
+
+    footer .logo-redes{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin:0px;
+    }
+
+    footer .redes {
+        margin: 0px 40px;
+    }
+
+    footer .logo-redes .redes i {
+        font-size: 2rem;
+    }
+    
+    footer .logo-redes svg {
+        align-self: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}

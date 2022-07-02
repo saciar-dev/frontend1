@@ -1,0 +1,28 @@
+/* h1,h2,h3{
+    color: rebeccapurple;
+} */
+
+.clase1 .clase2 .clase3{
+    color: rebeccapurple;
+}
+
+.conte{
+    display: flex;
+    height: 500px;
+    width: 200px;
+    /* align-items: center; */
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.caja1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.caja2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}

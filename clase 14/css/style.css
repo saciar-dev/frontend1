@@ -57,6 +57,7 @@ main article{
     padding-top: 154px;
     padding-left: 32px;
     padding-bottom: 151px;
+    width: 300px;
     /* position: relative; */
     /* display: inline-block; */
 }
@@ -65,8 +66,8 @@ main article{
 
 main .tarjeta-imagen-batman{
     background-image: url(../img/fondo-batman.png);
-    height: 193px;    
-    /* background-size: cover; */
+    height: 193px;   
+    width: 300px;
     background-repeat: no-repeat;
 }
 
@@ -83,7 +84,9 @@ main .img-batman-centro{
 
 main .tarjeta-imagen-harley{
     background-image: url(../img/fondo-harley.png);
-    height: 193px;    
+    height: 193px;   
+    width: 300px;  
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -99,8 +102,7 @@ main .img-harley-centro{
 
 main .tarjeta-datos{
     background-color: #F3F3F3;     
-    width: 300px;  
-    /* height: 336px; */
+    width: 300px;
     padding-bottom: 104px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -129,6 +131,20 @@ main .tarjeta-datos span{
 
 main .tarjeta-datos span:hover{
     background-color: #1a96dd;
+}
+
+@media (max-width: 1216){
+    main article{
+        width: 500px;
+
+    } 
+}
+
+@media (max-width: 768px){
+    main article{
+        width: 269px;
+
+    } 
 }
 
 /**********************************FOOTER**********************/

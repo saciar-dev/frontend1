@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************HEADER*****************/
+
+header{
+    background-color: #222222;
+    display: flex;
+    
+}
+
+header img{
+    padding: 10px 10px 10px 20px;
+}
+
+header h1{
+    align-self: center;
+    flex-grow: 1;    
+    font-weight: 700;
+    font-size: 24px;
+}
+#texto-verde{
+    color: #39B24A;
+}
+span.texto-blanco{
+    color: #FFFFFF;
+}
+span.texto-rojo{
+    color: #FC200C;
+}
+
+header ul{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;    
+    padding-right: 10px;
+}
+
+header li{    
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    margin-right: 13px;
+}
+
+/***********************MAIN***********************/
+
+main section{
+    display: flex;
+    justify-content: center;
+    padding: 35px 19px 35px 19px;
+    background-color: #E5E5E5;
+}
+
+main h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+}
+
+main article.delivery{
+    background-image: url("../img/delivery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px; 
+    width: 490px;
+    height: 350px;
+    position: relative;
+}
+
+main .delivery h2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/************************/
+main article.podio{
+    background-color: white;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;  
+    position: relative;  
+    margin-left: 5px;;
+}
+
+main .podio h2{
+    position: absolute;
+    top: 26px;
+    left: 160px;
+}
+
+main .podio h3{
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 112px;
+    left: 69px;
+}
+
+main .podio ol{
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    top: 155px;
+    left: 50px;
+}
+
+main li{
+    margin: 10px 10px 0px;
+}
+
+main img{
+    position: absolute;
+    top: 132px;
+    left: 325px;
+}
+
+/***************************FOOTER******************/
+
+footer{
+    background-color: #222222;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 42px;
+    display: flex;
+    align-items: center;
+}
+
+footer ul{
+    flex-grow: 1;
+}
+
+footer li{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    padding: 12px 0px 12px 20px;
+}
+
+footer img{
+    margin-right: 10px;
+}
+
+footer h2{
+    font-weight: 700;
+    font-size: 20px;
+}
